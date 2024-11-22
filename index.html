@@ -15,7 +15,7 @@
                 div{
                     width: 200px;
                     height: 200px;
-                    background-color: rgb(208, 247, 10)
+                    background-color: rgb(69, 4, 249)
                 }
                 
                 /*2. ID Selector syntax
@@ -73,7 +73,7 @@
                      property: value;
                   }
                   */
-                 div,span#a1,span.b1,a[href="https://manshi-attributes.netlify.app/"]{
+                div,span#a1,span.b1,a[href="https://manshi-attributes.netlify.app/"]{
                     display: inline-block;
                  }
 
@@ -89,6 +89,15 @@
                     content: url('https://1.bp.blogspot.com/-Cn01291Hy9w/WLuhGT70iBI/AAAAAAAAVBY/4vDEYJKBWOYcBsmCEjhEfZ5m9TSHaaT-gCLcB/s1600/dreamer-emoji.gif')
                 } 
                 
+               /* 8.Pseudo Class Selector
+
+                  element: selector{
+                    property: value;
+                  }
+                    */
+                div#c1:hover{
+                    background-color: red;
+                }
             </style>
         </head>
         <body>
@@ -97,5 +106,6 @@
             <span class="b1">Css Class Selectors</span>
             <a href="https://manshi-attributes.netlify.app/">Css Attributes selectors</a>
             <h1>CSS Pseudo Element Selector</h1>
+            <div id="c1">Pseudo Class Selector</div>
         </body>
 </html>
