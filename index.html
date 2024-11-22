@@ -66,13 +66,36 @@
                  *{
                     border: 10px solid rgba(5, 4, 4, 0.886)
                  }
+                 /*
+                  6.Combinational/Group Selectorsyntax
+
+                  element1,element2,element3.......{
+                     property: value;
+                  }
+                  */
+                 div,span#a1,span.b1,a[href="https://manshi-attributes.netlify.app/"]{
+                    display: inline-block;
+                 }
+
+                 /*
+                 7.Pseudo element Selector
+
+                 element::before{
+                    property: value;
+                 }
+                 */
+               
+                h1::before{
+                    content: url('https://1.bp.blogspot.com/-Cn01291Hy9w/WLuhGT70iBI/AAAAAAAAVBY/4vDEYJKBWOYcBsmCEjhEfZ5m9TSHaaT-gCLcB/s1600/dreamer-emoji.gif')
+                } 
+                
             </style>
         </head>
         <body>
             <div>CSS Element Selectors</div>
             <span id="a1">Css id selector</span>
             <span class="b1">Css Class Selectors</span>
-            <a href="https://manshi-attributes.netlify.app/">Css Attributes selectors</body>a>
-            
+            <a href="https://manshi-attributes.netlify.app/">Css Attributes selectors</a>
+            <h1>CSS Pseudo Element Selector</h1>
         </body>
 </html>
